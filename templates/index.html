@@ -1,0 +1,9 @@
+{%extends "base.html"%}
+
+{% block content%}
+    <h1>Hola mundo</h1>
+    <h2>{{titulo}}</h2>
+    {% for val in list %}
+    <p>{{val}}</p>
+    {%endfor%}
+{%endblock%}
